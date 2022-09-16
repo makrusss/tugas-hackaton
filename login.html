@@ -9,11 +9,11 @@
   <div class="card">
     <img src="https://pbs.twimg.com/profile_images/1488548719062654976/u6qfBBkF_400x400.jpg" alt="Avatar" style="width:100%">
     <div class="container">
-      <form action ="home.html" method="GET">
-        <input type="text" name="username" placeholder="username" maxlength="8">
-        <input type="password" name="password" placeholder="password" maxlength="8">
+      <form action ="home.html">
+        <input type="text" id="username" placeholder="username" maxlength="8">
+        <input type="password" id="password" placeholder="password" maxlength="8">
         <br>
-        <button type="submit">MASUK-IN</button>
+        <button type="submit" onclick="saveLoginInfo()">MASUK-IN</button>
         <p>TIDAK ADA USERNAME</p> 
         <a href="salah.html">KLIK DISINI</a>
       </form>
