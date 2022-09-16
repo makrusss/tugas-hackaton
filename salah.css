@@ -1,0 +1,14 @@
+h1{
+    color: aqua;
+    transition: 40s;
+    color: rgb(158, 12, 12);
+}
+h2{
+    transition: 40s;
+}
+h3{
+    transition: 40s;
+}
+h4{
+    transition: 40s;
+}

@@ -1,0 +1,37 @@
+h1 {
+    color: whitesmoke;
+    font-size: 40px;
+    padding: 10px;
+    margin: 10px;
+    width: 170px;
+    top: 10 px;
+    position: relative;
+    top: 20px;
+    left: 640px
+}
+
+body {
+    background: #1DA1F2;
+}
+
+.card {
+    box-shadow: 0 100px 100px 0 rgba(0,0,0,0.6);
+    transition: 30s;
+    width: 20%;
+    position: relative;
+    top: 50px;
+    left: 600px;
+    border-radius: 50px;
+    border-style: groove
+
+  }
+  
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+img{
+    border-radius: 50px;
+    transition: 28s; 
+}
