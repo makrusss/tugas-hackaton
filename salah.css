@@ -6,20 +6,20 @@ body{
 h1{
     transition: 20s;
     color: aqua;
-    opacity: 0;
+    opacity: 1;
 }
 h2{
         transition: 15s;
     color: rgb(25, 0, 255);
-    opacity: 0;
+    opacity: 1;
 }
 h3{
         transition: 10s;
     color: rgb(0, 255, 38);
-    opacity: 0;
+    opacity: 1;
 }
 h4{
     transition: 5s;
     color: rgb(0, 255, 234);
-    opacity: 0;
+    opacity: 1;
 }
