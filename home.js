@@ -1,3 +1,10 @@
+function getName() {
+  let name = localStorage.getItem("username")
+  // console.log(name);
+  document.getElementById('username').appendChild(name)
+// document.addEventListener("DOMContentLoaded", getName())
+}
+
 document.getElementById("shareBtn").addEventListener("click",masukanInput)
 //"shareBtn" --> id nya si BUTTON untuk submit TWIT 
    
@@ -28,6 +35,4 @@ document.getElementById("shareBtn").addEventListener("click",masukanInput)
    let list = document.getElementById("keluar");
     list.removeChild(list.lastElementChild);
   }
-  
-
   
