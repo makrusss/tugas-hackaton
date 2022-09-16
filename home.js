@@ -1,12 +1,13 @@
 function getName() {
   let name = localStorage.getItem("username")
-  // console.log(name);
-  document.getElementById('username').appendChild(name)
+  console.log(name);
+  document.getElementById('username').innerText=name
 // document.addEventListener("DOMContentLoaded", getName())
 }
 
 document.getElementById("shareBtn").addEventListener("click",masukanInput)
 //"shareBtn" --> id nya si BUTTON untuk submit TWIT 
+
    
   function masukanInput(e) {
     e.preventDefault()
